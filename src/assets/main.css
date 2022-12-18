@@ -1,13 +1,35 @@
 @import './base.css';
 
-#app {
-  max-width: 1280px;
+
+body {
+    background-color:#fff;
+
+}
+.row{
+    margin-bottom: 50px;
+}
+p{
+    margin:0px;
+    margin-bottom:10px;
+}
+/*
+Brand Colours
+Primary Dark - 103766
+Primary Light - 01A0C6
+Secondary - 80C41C
+
+*/
+
+ #app {
+    width:100%;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 2rem;
 
   font-weight: normal;
+  
 }
-
+/*
 a,
 .green {
   text-decoration: none;
@@ -31,5 +53,6 @@ a,
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-  }
+  } 
 }
+*/
