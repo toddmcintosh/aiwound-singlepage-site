@@ -5,12 +5,8 @@
 			<p>
 				asdhflajhsdf askdjhf askdjf asdkfas faskdfasd faskdfhasd
 				faksdfha sdfkasdhfa sdfkasjhdf askdjhf askdfasdfasdfa
-			</p>
-			<p>
 				asdhflajhsdf askdjhf askdjf asdkfas faskdfasd faskdfhasd
 				faksdfha sdfkasdhfa sdfkasjhdf askdjhf askdfasdfasdfa
-			</p>
-			<p>
 				asdhflajhsdf askdjhf askdjf asdkfas faskdfasd faskdfhasd
 				faksdfha sdfkasdhfa sdfkasjhdf askdjhf askdfasdfasdfa
 			</p>
@@ -19,7 +15,37 @@
 
 	<div class="row">
 		<div class="col-sm-12">
-			<h1>Intro Video</h1>
+			<div class="headshotWrapper">
+				<img
+					alt="Robin Mossing"
+					class="logo"
+					src="@/assets/images/1635437046641.jpg"
+				/>
+			</div>
+			<h1>Introducing Robin Mossing</h1>
+
+			<p>
+				Robin is an experienced forward-thinker and innovator with a
+				demonstrated history of working in the hospital & health care
+				industry.
+			</p>
+			<p>
+				Skilled in Community Service, Healthcare, Nurse Practitioners,
+				Healthcare Compliance, and Wound Care, Robin brings a strong
+				business development mindset and is a trusted advisor with sound
+				morals and ethical compass.
+			</p>
+			<ul>
+				<li>Founder of benchmark business models</li>
+				<li>Golden Key International Honour Society</li>
+				<li>His three daughters are his greatest accomplishment!</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-12">
+			<h1>A Sample of What We Do</h1>
 			<div class="video-container">
 				<iframe
 					width="560"

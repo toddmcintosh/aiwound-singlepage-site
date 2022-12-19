@@ -1,0 +1,140 @@
+@import './base.css';
+
+
+body {
+    /* background: url('@/assets/images/vertGradient.jpg'), #ff0000; */
+    background-repeat:  repeat-x;
+    background-position: 0px 0px;
+    /* background-color: #d2e9ff; */
+    background-image: linear-gradient(#fff 50%, #103766 80%);
+    min-height: 1600px;
+
+}
+.backgroundWrapper{
+    background-image: url('@/assets/images/blueFooter2.png');
+    background-position: 0px 800px;
+    background-repeat: no-repeat;
+    background-size: 100%, auto;
+    min-height: 1600px;
+    height:100%;
+}
+.row{
+    margin-bottom: 50px;
+}
+p{
+    margin:0px;
+    margin-bottom:10px;
+}
+h1{
+    font-size:24px;
+    color:#01A0C6;
+}
+
+.logoWrapper {
+	height: 30vw;
+	max-height: 200px;
+	width: auto;
+	border: 0px red solid;
+	text-align: center;
+}
+.logoWrapper img {
+	height: 100%;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.headshotWrapper {
+	height: 30vw;
+	max-height: 200px;
+	width: auto;
+	border: 0px red solid;
+	text-align: center;
+    float:left;
+    margin-right:50px;
+    margin-bottom:50px;
+    display: block;
+}
+.headshotWrapper img {
+	height: 100%;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul{
+    margin:0px;
+    padding:0px;
+    /* margin-left: 15px; */
+    /* border:1px red solid; */
+    float:left;
+
+}
+ul li{
+    margin:0px;
+    padding:0px;
+    margin-left:25px;
+    /* border:1px red solid; */
+}
+
+
+
+/*
+Brand Colours
+Primary Dark - 103766
+Primary Light - 01A0C6
+Secondary - 80C41C
+83c1fd
+d2e9ff
+*/
+
+ #app {
+    width:100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 2rem;
+/* background-color: #fff; */
+    font-weight: normal;
+
+}
+/*
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  } 
+}
+*/
+
+@media (max-width: 500px) {
+    body {
+    
+        background-position: 0px 0px;
+
+    }
+    .backgroundWrapper{
+    
+        background-position: 0px 1000px;
+
+        background-size: 100%, auto;
+        min-height: 1000px;
+    }
+}

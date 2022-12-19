@@ -20,7 +20,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 					<img
 						alt="AI Wound Logo"
 						class="logo"
-						src="@/assets/AIWound_Logo_Small.png"
+						src="@/assets/images/AIWound_Logo_Small.png"
 					/>
 				</div>
 			</div>
@@ -75,19 +75,6 @@ nav a {
 nav a:first-of-type {
 	border: 0;
 } */
-.logoWrapper {
-	height: 30vw;
-	max-height: 300px;
-	width: auto;
-	border: 0px red solid;
-	text-align: center;
-}
-.logoWrapper img {
-	height: 100%;
-	width: auto;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 @media (min-width: 1024px) {
 	/* header {
